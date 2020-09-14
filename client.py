@@ -50,7 +50,7 @@ while connection:
     decrypted_message = k.decrypt(recv_message).decode("utf-8")
 
     print("***********************") 
-    print(f"Received ciphertext is (in byte object): {encrypted_message}")
+    print(f"Received ciphertext is (in byte object): {recv_message}")
     print("Received plaintext is: " + decrypted_message)
     print("***********************\n")
 
